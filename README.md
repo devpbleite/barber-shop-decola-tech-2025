@@ -1,37 +1,84 @@
-# ✂️ Barbearia Agendamento ✂️
+# 💈 Projeto de Agendamento para Barbearia
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+Sistema completo para agendamento de atendimentos em uma barbearia, dividido entre frontend (Angular) e backend (Java com Spring). O objetivo do projeto é explorar conceitos importantes de desenvolvimento web fullstack, utilizando ferramentas modernas e práticas recomendadas da indústria.
 
-Sistema completo para agendamento de atendimento em barbearia com frontend em Angular e backend em Spring Boot.
+---
 
-## 🚀 Tecnologias
+## 💻 Sobre o Projeto
+
+### Frontend - Angular + Angular Material
+
+Projeto Angular para agendamento de atendimento em uma barbearia. Utiliza a biblioteca Angular Material e explora diversos conceitos do framework Angular.
+
+### Backend - Java + Spring Boot
+
+Projeto Java com Spring Boot para gerenciamento de agendamentos. Utiliza JPA com Hibernate para persistência de dados no PostgreSQL, e Flyway para controle de versões e migrations do banco de dados.
+
+---
+
+## 📚 Tecnologias Utilizadas
 
 ### Frontend
-<div style="display: flex; gap: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" width="40" height="40"/>
-</div>
+
+- **Javascript**
+- **Typescript**
+- **HTML**
+- **CSS**
+- **Angular**
 
 ### Backend
-<div style="display: flex; gap: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40"/>
-</div>
 
-### DevOps
-<div style="display: flex; gap: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="40" height="40"/>
-</div>
+- **Java**
+- **SQL**
+- **Gradle**
+- **Spring Boot**
+- **Hibernate**
+- **Docker**
+- **Docker Compose**
 
-## 📦 Funcionalidades
+---
 
-### Agendamento
-- ✅ Marcação de horários
-- ✅ Seleção de serviços
+## 🛠️ Habilidades e Conceitos Explorados
 
+### 🔹 Frontend com Angular
+
+- **Consumo de API REST**
+  - Implementação de serviços HTTP para comunicação com backend
+  - Tratamento de respostas e erros
+  - Utilização de Observables para operações assíncronas
+
+- **Comunicação com Backend**
+  - Autenticação e autorização
+  - Interceptação de requisições HTTP
+  - Armazenamento e gerenciamento de estados
+
+- **Componentização**
+  - Criação de componentes reutilizáveis
+  - Comunicação entre componentes (Input/Output)
+  - Ciclo de vida dos componentes
+  - Content Projection
+
+---
+
+### 🔸 Backend com Spring Boot
+
+- Trabalhar corretamente com verbos HTTP (GET, POST, PUT, DELETE)
+- Implementação de autenticação e autorização com Spring Security
+- Comunicação eficiente com banco de dados usando JPA/Hibernate
+- Versionamento e gerenciamento do banco de dados com Flyway
+- Boas práticas na construção de APIs RESTful
+
+---
+
+## 🐳 Docker
+
+- Criação de containers para ambiente de desenvolvimento
+- Orquestração com Docker Compose para rodar a aplicação completa (frontend + backend + banco de dados)
+
+---
+
+## 📌 Observações Finais
+
+Este projeto foi desenvolvido com o objetivo de consolidar conhecimentos nas tecnologias Angular e Spring, focando em boas práticas, componentização, segurança, persistência e versionamento de dados.
+
+---
